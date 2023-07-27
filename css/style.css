@@ -5,7 +5,7 @@ body {
 
 /* Estilos de la sección del equipo */
 .equipo {
-  background-color: #baeaa2;
+  background-color: #b5cc6a;
   padding: 60px 0;
   overflow: hidden;
 }
@@ -95,7 +95,7 @@ body {
 }
 
 .equipo .miembro .social a:hover {
-  background: rgb(1, 43, 14);
+  background: #feca67;
 }
 
 .equipo .miembro .social a:hover i {
@@ -167,7 +167,7 @@ footer p {
   line-height: 30px;
   text-align: center;
   border-radius: 50%;
-  background-color: #fccc64;
+  background-color: #feca67;
   color: #fff;
   margin: 0 5px;
   transition: background-color 0.3s;
