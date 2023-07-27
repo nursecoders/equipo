@@ -1,10 +1,11 @@
+/* Estilos generales */
 body {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 /* Estilos de la sección del equipo */
 .equipo {
-  background-color: #baeaa2; 
+  background-color: #baeaa2;
   padding: 60px 0;
   overflow: hidden;
 }
@@ -16,11 +17,11 @@ body {
   padding: 30px;
   border-radius: 5px;
   background: #ffffff;
-  transition: transform 0.3s; 
+  transition: transform 0.3s;
 }
 
 .equipo .miembro:hover {
-  transform: translateY(-5px); 
+  transform: translateY(-5px);
 }
 
 .equipo .miembro .fotoequipo {
@@ -31,10 +32,10 @@ body {
 }
 
 .equipo .miembro .fotoequipo img {
-  transition: transform 0.3s; 
+  transition: transform 0.3s;
 }
 
-.equipo .miembro .fotoequipo:hover img {  
+.equipo .miembro .fotoequipo:hover img {
   transform: scale(1.1) rotate(360deg);
   transition: transform 0.5s ease;
 }
@@ -43,7 +44,7 @@ body {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: rgb(6, 88, 31); /* se puede modificar */
+  color: rgb(6, 88, 31);
 }
 
 .equipo .miembro span {
@@ -87,13 +88,14 @@ body {
 }
 
 .equipo .miembro .social a i {
-  color: rgb(27, 143, 104); /* el color deseado para los iconos */
+  color: rgb(27, 143, 104);
+  /* el color deseado para los iconos */
   font-size: 16px;
   margin: 0 2px;
 }
 
 .equipo .miembro .social a:hover {
-  background: rgb(1, 43, 14); 
+  background: rgb(1, 43, 14);
 }
 
 .equipo .miembro .social a:hover i {
@@ -104,11 +106,13 @@ body {
   margin-left: 8px;
 }
 
+/* Estilos generales para secciones */
 section {
   padding: 60px 0;
   overflow: hidden;
 }
 
+/* Estilos para títulos de sección */
 .section-title {
   text-align: center;
   margin-top: 35px;
@@ -123,7 +127,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: rgb(5, 85, 10);
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
 }
 
 .underline {
@@ -138,16 +142,17 @@ section {
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
 /* Estilos del footer */
 footer {
-  background-color:  #fff
-  color: #c4dc5c; 
-  padding: 20px; 
-  text-align: center; 
+  background-color: #fff;
+  color: #c4dc5c;
+  padding: 20px;
+  text-align: center;
 }
 
 footer p {
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 
 /* Estilos de los iconos sociales en el footer */
@@ -162,12 +167,12 @@ footer p {
   line-height: 30px;
   text-align: center;
   border-radius: 50%;
-  background-color: #fccc64; 
-  color: #fff; 
-  margin: 0 5px; 
-  transition: background-color 0.3s; 
+  background-color: #fccc64;
+  color: #fff;
+  margin: 0 5px;
+  transition: background-color 0.3s;
 }
 
 .social-icons a:hover {
-  background-color: rgb(1, 43, 14); 
+  background-color: rgb(1, 43, 14);
 }
